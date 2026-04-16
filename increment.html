@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Clicked</h1>
+    <h2>0</h2>
+    <button onclick=increment()>Increase value</button>
+    <script>
+        const increment = () => {
+            const num = document.querySelector('h2')
+            num.innerText = parseInt(num.innerText) + 1
+        }
+    </script>
+</body>
+</html>
